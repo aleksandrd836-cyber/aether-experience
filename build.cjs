@@ -1,0 +1,1 @@
+require('esbuild').buildSync({entryPoints:['src/experience.js'],bundle:true,minify:true,sourcemap:true,target:['chrome105','safari16','firefox110'],outfile:'dist/experience.js',legalComments:'linked'});
